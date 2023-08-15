@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 6%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .logo{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-nav a{
+    display: inline-block;
+    color: black;
+    margin: 0 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    max-width: 700px;
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    text-align: justify;
+}
+
+.content h2{
+    font-size: 2.8em;
+}
+
+.content p{
+    font-size: 1.2em;
+}
+
+.content a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: rgb(175, 168, 168);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
